@@ -91,6 +91,12 @@ img {
     margin-bottom: 12px;
 }
 
+.name:hover {
+    color: var(--yellow);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
 .desc {
     color: var(--grey);
     margin: 0;
