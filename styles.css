@@ -33,6 +33,21 @@ img {
     max-width: 337px;
     margin: 8px;
     box-shadow: 8px 8px 0px 0px #000000;
+    opacity: 0;
+    transform: translate(0, 100px);
+    animation: cardDisplayAnimation 0.3s ease-in forwards;
+}
+
+@keyframes cardDisplayAnimation {
+    from {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
 }
 
 .illustration {
