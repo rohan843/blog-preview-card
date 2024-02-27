@@ -7,6 +7,35 @@
     --grey: #7f7f7f;
 }
 
+html {
+    height: 100%;
+    background-color: var(--yellow);
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--pure-white);
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    padding: 24px;
+    max-width: 337px;
+    margin: 8px;
+    box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.illustration {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .text {
     font-family: "Figtree", sans-serif;
 }
